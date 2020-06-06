@@ -1,0 +1,89 @@
+.part-one {
+  background: url(https://wallsdesk.com/wp-content/uploads/2016/11/Angry-Birds-HD.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* 1em=16px */
+.part-two {
+  background: url(https://www.blurayauthority.com/wp-content/uploads/2019/11/angrybirds2hd_pub.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* display inline makes every element in a line */
+/* display block doesnt makes elemnt in a line */
+/* background-position: center center; means aligning in center by both horizontally and vertically */
+/* absolute position makes changes respect to the parent
+relative position make changes respect to the static position
+static position is the default position */
+/* background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/03135724/AB2_Clansbanners_1920x750_BG.jpg);this is the way to set background image */
+/* position:relative; if this is written in any element this means that it is the element's parent */
+/* background repeat: no repeat helps to not repeat the background again */
+.part-three {
+  background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/03135724/AB2_Clansbanners_1920x750_BG.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position:relative;
+}
+/* vh changes according to the screen size like 5vh means 5 % of the screen */
+body {
+  margin: 0;
+}
+.part-three img{
+    height:600px;
+    width:500px;
+    margin:auto;
+    display:block;
+    padding-top:60px;
+}
+/* float means extreme either left or right */
+/* padding gives space between the edge and the element */
+.part-one img{
+  height:175px;
+  width:250px;
+  float:right;
+  padding-right:30px;
+  padding-top:180px;
+}
+ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  background-color:white;
+  overflow:hidden;
+}
+/* overflow means probhiting the element taking extra space */
+li{
+   float:right;
+    padding-right:30px;
+}
+li a{
+  text-decoration:none;
+  font-size:30px;
+  font-family: 'Acme', sans-serif;
+  color:black;
+  padding:14px;
+  display:block;
+}
+li a:hover{
+  background-color:black;
+  color:white;
+}
+/* cursor changes the mouse cursor to the specified shape */
+.angry-birds{
+    float:left;
+    padding:14px;
+    font-size:50px;
+font-family: 'Oswald', sans-serif;
+font-weight:1000;
+cursor:crosshair;
+}
+/* the background cover property covers the whole screen by the element,even if it has to stretch the image. */
